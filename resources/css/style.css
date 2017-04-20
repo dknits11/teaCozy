@@ -1,0 +1,140 @@
+/*General Styling*/
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/*header Styling*/
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+
+nav {
+  text-align: right;
+  display: block;
+  flex-grow: 1;
+}
+
+a {
+  color: seashell;
+}
+
+/*General content styling*/
+.content {
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mission section styling*/
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text {
+  background-color: black;
+  width: 1200px;
+}
+
+/*Featured Tea section styling*/
+#featured {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.featured-teas img {
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Locations section styling*/
+#locations {
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+.address h3 {
+  margin: 10px;
+}
+
+.address p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Contact section styling*/
+#contact {
+  height: 200px;
+}
+
+/*Footer section styling*/
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
